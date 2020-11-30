@@ -3,9 +3,9 @@ body {
 }
 
 .bg-left {
-    /* background-image: url('./assets/Rectangle\ 1.svg'); */
+    background-image: url('./assets/dapo\ work.png');
     /* background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("https://bit.ly/2rlzaXi"); */
-    background: -webkit-linear-gradient(rgba(0, 0, 2, 0.815), rgba(44, 42, 43, 0.8)), url("./assets/joshua-eckstein-nkUioaswtvM-unsplash\ \(1\).png");
+    /* background: -webkit-linear-gradient(rgba(0, 0, 2, 0.815), rgba(44, 42, 43, 0.8)), url("./assets/joshua-eckstein-nkUioaswtvM-unsplash\ \(1\).png"); */
     /* height: 100vh; */
     color: #FFFFFF;
     background-size: cover;
@@ -22,20 +22,20 @@ body {
 .welcome-login {
     font: normal  100 28px/42px Poppins;
     letter-spacing: 2.8px;
-    margin-left:  100px;
+    /* margin-left:  100px; */
 }
 
 .parish-text  {
-    font: normal normal 48px Poppins;
+    font: normal normal 40px Poppins;
     letter-spacing: 2.4px;
-    margin-left: 100px;   
+    /* margin-left: 100px;    */
 }
 
 .line-login {
-    margin-left: 100px;
+    /* margin-left: 100px; */
     width: 392px;
     padding-bottom: 20px;
-    border-bottom: 4px solid #DE000E
+    border-bottom: 4px solid #DE000E;
 }
 
 .easy-parish {
@@ -63,13 +63,13 @@ body {
 .logo-easy-parish {
     position: relative;
     top: 79px;
-    margin-left: 100px
+    /* margin-left: 100px */
 }
 
 .copyright-parish {
     position: relative;
     top: 45%;
-    margin-left: 100px;
+    /* margin-left: 100px; */
     font: normal normal medium 14px/21px Poppins;
 }
 
@@ -81,7 +81,7 @@ body {
     font: normal normal 600 38px/57px Poppins;
     letter-spacing: 1.9px;
     color: #DE000E;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     /* padding: 10px;
     border-bottom: 2px solid #B31154; */
 }
@@ -132,6 +132,25 @@ body {
     padding: 10px;
 }
 
+.copyright-parish2 {
+    display: none;
+}
 .goal {
     border: 2px solid red;
+}
+
+
+@media (max-width: 993px) {
+    .bg-left {
+        width: 100%;
+        height: 60vh;
+    }
+
+    .copyright-parish {
+        display: none;
+    }
+
+    .copyright-parish2 {
+        display: block;
+    }
 }

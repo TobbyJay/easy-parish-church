@@ -81,7 +81,7 @@ body {
     font: normal normal 600 38px/57px Poppins;
     letter-spacing: 1.9px;
     color: #DE000E;
-    margin-bottom: 134px;
+    margin-bottom: 100px;
     /* padding: 10px;
     border-bottom: 2px solid #B31154; */
 }
@@ -96,21 +96,40 @@ body {
     letter-spacing: 0.8px;
     color: #5B5158;
     opacity: 0.89;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .input-label {
     background: #FFFFFF47 0% 0% no-repeat padding-box;
     border: 1px solid #7070707A;
     border-radius: 20px;
-    padding: 5px;
     width: 454px;
     height: 50px;
+    margin-bottom: 30px
 }
 
-.group-circle {
+/* .group-circle {
     z-index: -2;
     background: -webkit-linear-gradient(rgba(0, 0, 2, 0.815), rgba(44, 42, 43, 0.8)), url("./assets/joshua-eckstein-nkUioaswtvM-unsplash\ \(1\).png");
+} */
+
+.invalid-text {
+    font: normal normal 600  12px Poppins;
+    letter-spacing: 0.6px;
+    color: #B31154;
+}
+
+.login-btn {
+    background: #CD0A21 0% 0% no-repeat padding-box;
+    box-shadow: 5px 15px 45px #00000042;
+    border-radius: 20px;
+    opacity: 1;  
+    font: normal normal medium 18px/28px Poppins;
+    letter-spacing: 0.9px;
+    color: #F5F5F5; 
+    width: 208px;
+    /* height: 52px; */
+    padding: 10px;
 }
 
 .goal {

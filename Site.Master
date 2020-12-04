@@ -14,58 +14,50 @@
 
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins:300,400,500' rel='stylesheet' type='text/css'>
+   
+    <link href="Content/style.css" rel="stylesheet" />
 </head>
 <body>
-    <form runat="server">
-        <asp:ScriptManager runat="server">
-            <Scripts>
-                <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>
-                <%--Framework Scripts--%>
-                <asp:ScriptReference Name="MsAjaxBundle" />
-                <asp:ScriptReference Name="jquery" />
-                <asp:ScriptReference Name="bootstrap" />
-                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
-                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
-                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
-                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
-                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
-                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
-                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
-                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
-                <asp:ScriptReference Name="WebFormsBundle" />
-                <%--Site Scripts--%>
-            </Scripts>
-        </asp:ScriptManager>
 
-        <div class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" runat="server" href="~/">Application name</a>
-                </div>
-                <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a runat="server" href="~/">Home</a></li>
-                        <li><a runat="server" href="~/About">About</a></li>
-                        <li><a runat="server" href="~/Contact">Contact</a></li>
-                    </ul>
+
+    <div class="container-fluid bg-report">
+        
+        <div class="head-pane"></div>
+        <div class="row">
+            <div class="col-4 col-md-3 col-lg-2">
+                <div class="side-nav" id="side-nav">
+                    <div class="logo"><img src="./assets/church project/Group 376.png"></div>
+                    <div class="home"><img src="./assets/church project/Group 373.png"></div><div class="nav-text"> Home</div>
+                    <div class="administrator"><img src="./assets/church project/Icon material-supervisor-account.png"></div><div class="nav-text">Administrator</div>
+                    <div class="spreadsheet"><img src="./assets/church project/Icon open-spreadsheet.png" alt=""></div><div class="nav-text">Recording Sheet</div>
+                    <div class="accounting"><img src="./assets/church project/Group 374.png" alt=""></div><div class="nav-text">Accounting Document</div>
+                    <div class="specimen"><img src="./assets/church project/Group 375.png" alt=""></div><div class="nav-text">Account Specimen</div>
                 </div>
             </div>
-        </div>
-        <div class="container body-content">
+            <div class="col-8 col-md-9 col-lg-10 bg-report2">
+                <div class="row mt-4">
+                    <div class="col-sm-10 col-md-6">
+                        <img src="./assets/church project/Search.png" class="search-icon">
+                        <input type="text" class="input-search" placeholder="Search ...">
+                    </div>
+                    <div class="d-none d-md-block col-md-4 text-right">
+                        <img src="./assets/church project/alarm-bell-184.png">&nbsp;&nbsp;&nbsp;&nbsp;<img src="./assets/church project/AdobeStock_-332.png">&nbsp;&nbsp;<span>Joshua</span>
+                    </div>
+                    <!-- <div class="col-sm-3">
+                        
+                    </div> -->
+                </div>
+     
+                
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
-            <hr />
-            <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
-            </footer>
-        </div>
 
-    </form>
+            </div>
+        </div>
+    </div>
+     
+    <script src="script.js"></script> 
 </body>
 </html>

@@ -46,7 +46,7 @@
                                 <div class="col-sm-6 text-right">Forgot Password?</div>
                             </div>
                             
-                                <asp:Button class="btn login-btn mt-4" ID="Button1" runat="server" Text="Log In" OnClick="Button1_Click"/>
+<%--                                <asp:Button class="btn login-btn mt-4" ID="Button1" runat="server" Text="Log In" OnClick="Button1_Click"/>--%>
 
                             <div class="btn login-btn mt-4">
                                 Log In

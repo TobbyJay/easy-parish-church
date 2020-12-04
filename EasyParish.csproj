@@ -106,6 +106,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="assets\church project\AdobeStock_-332.png" />
+    <Content Include="assets\church project\alarm-bell-184.png" />
+    <Content Include="assets\church project\Group 373.png" />
+    <Content Include="assets\church project\Group 374.png" />
+    <Content Include="assets\church project\Group 375.png" />
+    <Content Include="assets\church project\Group 376.png" />
+    <Content Include="assets\church project\Icon material-supervisor-account.png" />
+    <Content Include="assets\church project\Icon open-spreadsheet.png" />
+    <Content Include="assets\church project\Search.png" />
     <Content Include="assets\dapo work.png" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -137,6 +146,7 @@
     <Content Include="Scripts\jquery-3.4.1.slim.js" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\script.js" />
     <Content Include="Scripts\WebForms\DetailsView.js" />
     <Content Include="Scripts\WebForms\Focus.js" />
     <Content Include="Scripts\WebForms\GridView.js" />
